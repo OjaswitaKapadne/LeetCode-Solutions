@@ -1,10 +1,11 @@
 class Solution {
 public:
-    bool calculate(vector<int>& bloomDay, int m, int k, int day) {
+    bool isPossible(vector<int>& bloomDay, int m, int k, int day) {
         int count=0, bouquets=0;
-        for(int i=0; i<bloomDay.size(); i++) {
+        int n=bloomDay.size();
+        for(int i=0; i<n; i++) {
             if(bloomDay[i]<=day) {
-                count++;
+                count++; 
             } else {
                 bouquets+=(count/k);
                 count=0;
@@ -14,16 +15,16 @@ public:
         return bouquets>=m;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
-        if((long long)m*k > bloomDay.size()) {
+        int n=bloomDay.size();
+        if((long long)m*k > n) {
             return -1;
         }
-        int maxx = *max_element(bloomDay.begin(), bloomDay.end());
-        int low=1, high=maxx;
-        int ans=maxx;
+        int maxx=*max_element(bloomDay.begin(), bloomDay.end());
+        int low=0, high=maxx;
+        int ans=high;
         while(low<=high) {
-            
-            int mid=(high-low)/2 + low;
-            if(calculate(bloomDay, m, k, mid)) {
+            int mid=(high-low)/2+low;
+            if(isPossible(bloomDay, m, k, mid)) {
                 ans=mid;
                 high=mid-1;
             } else {
