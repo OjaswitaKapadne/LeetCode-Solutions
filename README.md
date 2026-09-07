@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0137-single-number-ii](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0137-single-number-ii) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/3718-smallest-missing-multiple-of-k) |
