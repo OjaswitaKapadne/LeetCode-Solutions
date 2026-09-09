@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
+| [3870-count-commas-in-range](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/OjaswitaKapadne/LeetCode-Solutions/tree/master/3875-construct-uniform-parity-array-i) |
 ## Recursion
 |  |
